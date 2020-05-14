@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Hanalei+Fill|Karla|Staatliches');
+
+main{
+    background: linear-gradient(rgba(0,0,0,0.834), rgba(0,0,0,0.598)), url(fond.jpg);
+    background-size: cover, cover;
+    background-position: center center;
+    height: auto;
+    font-family: 'Karla', sans-serif;
+    color: white;
+    padding: 5%;
+   
+}
+.ui.items{
+    color: white;
+}
+span{
+    color: white;
+}
+p{
+    color: white;
+}
+
+/*-------Demande--------*/
+
+main.MainDemande h1.ui.header{
+    color: white;
+    font-size: 3.5em;
+}
+
+main.MainDemande div.ui.container{
+    color: white;
+    font-size: 1em;
+    padding: 10%;   
+}
+
+main.MainDemande>div.ui.very.padded.text.container{
+
+    padding : 5%;
+    padding-top :5%;
+}
+
+main.MainDemande div.ui.container>h3{
+
+    font-size: 1.7em;
+
+}
+
+main.MainDemande div.ui.container{
+
+    margin-bottom: 0%;
+
+}
+
+main.MainDemande>div button.ui.center.yellow.button{
+    margin-left: 19%;
+}

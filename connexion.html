@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Malin Voisin</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+		<link rel="stylesheet" href="assets/style.css">
+	</head>
+	<body>
+		<div id="bloc_page">
+			<header>
+				<nav class="ui olive five item inverted menu">
+					<div class="ui container">
+						<a href="acceuil.html" class="item">
+							<h1 class="header item"><i class="handshake outline icon"></i>Malin Voisin</h1>
+						</a>
+						<a href="demande.html" class="yellow item"><h3>Demander un service</h3></a>
+						<a href="propose.html" class="yellow item"><h3>Proposer un service</h3></a>
+						<a href="about.html" class="yellow item"><h3>À propos</h3></a>
+					</div>
+					<div class="right item">
+						<a href="connexion.html" class="ui black basic button">Se connecter</a>
+					</div>
+				</nav>
+			</header>
+			<main class="MainConnexion">
+
+			<div class="ui container">
+				<form class="ui form" method="post" action="database.php">
+						<div class="ui placeholder segment">
+								<div class="ui two column very relaxed stackable grid">
+								  <div class="column">
+									<div class="ui form">
+									  <div class="field">
+										<label>Username</label>
+										<div class="ui left icon input">
+										  <input type="text" placeholder="Username">
+										  <i class="user icon"></i>
+										</div>
+									  </div>
+									  <div class="field">
+										<label>Password</label>
+										<div class="ui left icon input">
+										  <input type="password">
+										  <i class="lock icon"></i>
+										</div>
+									  </div>
+									  <div class="ui blue submit button">Send</div>
+									  <div class="ui pointing red basic label">
+											<i class="lock icon"></i>C'est pour bientôt
+										  </div>
+									</div>
+								  </div>
+								  <div class="middle aligned column">
+										<a href="#bas"><div class="ui big button">
+									  <i class="signup icon"></i>
+									  Sign Up
+									</div></a>
+								  </div>
+								</div>
+								<div class="ui vertical divider">
+								  Or
+								</div>
+							  </div>
+						<form class="ui form">
+							<div class="field">
+								<label><h3 id="bas">Email :</h3></label>
+								<input type="text" name="email" placeholder="Email" required>
+							</div>
+							<div class="field">
+								<label><h3>Prénom :</h3></label>
+								<input type="text" name="name" placeholder="Entrez votre prénom" requirde>
+							</div>
+							<div class="field">
+								<label><h3>Nom :</h3></label>
+								<input type="text" name="lastname" placeholder="Entrez votre nom" required>
+							</div>
+						</form>
+						<div class="ui form">
+							<div class="field">
+								<select name="place">
+									<option value="">Charogne</option>
+									<option value="1">Merilmontant</option>
+									<option value="0">Gambetta</option>
+								</select>
+							</div>
+						</div>
+						<a href="acceuil.html"><button class="ui button" type="submit">Inscription</button></a> 
+					</form>
+				</div>
+
+			</main>
+		<footer>
+			<div class="ui container">
+				<p class="bottom item">
+					&copy; 2019 Site réalisé par la team E1 n°5, à
+					<a href="http://www.Estiam.com" target="_blank">l'ESTIAM</a>
+					 pendant le Hackaton #2
+				</p>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
